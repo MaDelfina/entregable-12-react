@@ -1,0 +1,161 @@
+ /* Header */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: #76D2FF;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+#header .logo {
+    color: rgba(255, 255, 255, 0.904);
+    font-size: 40px;
+    line-height: 100px;
+    float: left;
+}
+
+#header nav{
+    line-height: 100px;
+}
+
+#header nav a{
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.904);;
+    padding: 10px 20px;
+} 
+
+.greeting{
+    display: flex;
+    justify-content: center;
+}
+
+/*Item List*/
+.item_list{
+    display: flex;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr, 1fr));
+}
+
+/*Item*/
+.item{
+    background-color: rgb(253, 244, 244);
+    box-shadow: 0 00.5rem 1rem rgba(0, 0, 0, 0.2);
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    width: 230px;
+    margin: 5px;
+    padding: 0px;
+}
+
+.item_img{
+    height: 290px;
+    width: 230px;
+}
+
+.item_title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.item_price{
+    margin-top: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.detalle{
+    color: black;
+    border-radius: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+/*Item Detail Container*/
+.cargando{
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*Page*/
+.page{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*Cart*/
+.cart{
+    min-height: 100vh;
+    height: auto;
+    padding-top: 30px;
+}
+
+.cartItem{
+    height: auto;
+    margin-bottom: 15px;
+    padding: 30px 15px;
+}
+
+.cart_precio{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cart_qty{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.total{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.delete{
+    margin-left: 270px;
+    display: grid;
+    grid-template-columns: 400px 400px 30px;
+}
+
+.carrito_vacio{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+}
+
+/*checkout*/
+.completar_datos{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.datos{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Footer */
+#footer{
+    background-color: #97d8f8;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.container{
+    align-items: center;
+}
+
+#footer nav{
+    line-height: 60px;
+}
+
+#footer nav a{
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.904);;
+    padding: 10px 20px;
+}  
